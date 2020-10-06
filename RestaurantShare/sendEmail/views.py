@@ -31,7 +31,7 @@ def sendEmail(request):
 
     # smtp using
     server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
-    server.login("saehee1229@gmail.com", "68sk2231^^")
+    server.login("00000@000.com", "000000")
 
     msg = MIMEMultipart('alternative')
     msg['Subject']  = inputTitle
